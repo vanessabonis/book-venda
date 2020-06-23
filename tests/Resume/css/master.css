@@ -1,0 +1,56 @@
+html {
+	background-image: url(../img/backg.jpg);
+	font-family: 'Helvetica Neue', sans-serif;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.prof-box{
+
+	width: 400px;
+	height: 400px;
+	background: rbga(0,0,0,0.8);
+	padding: 40px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+
+}
+
+.prof-pic {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+h1 {
+
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+h5 {
+	font-size: 20px;
+	letter-spacing: 3;
+}
+
+.icons{
+	font-size: 40px;
+
+}
+
+.icons a{
+	color: white;
+}
+
+.line-break{
+
+	width: 300px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
