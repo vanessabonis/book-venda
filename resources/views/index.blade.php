@@ -39,7 +39,7 @@
             <button class="btn btn-secondary">Visualizar</button>
           </a>
 
-          <a href="">
+          <a href="{{url("books/$books->id/edit")}}">
             <button class="btn btn-primary">Editar</button>
           </a>
 
@@ -49,6 +49,7 @@
         </td>
      </tr>
     @endforeach
+    
     
     
   </tbody>

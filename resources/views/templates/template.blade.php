@@ -11,5 +11,7 @@
 </head>
 <body>
     @yield('contet')
+
+    <script src="{{url("assets/js/delete.js")}}  ></script>
 </body>
 </html>
